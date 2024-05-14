@@ -1,6 +1,5 @@
 # Simple Transformer
 24年高级软件工程课程作业：利用Transformer模型实现中译英。
-data中是数据集
 使用KAN而不是MLP作为Transformer中的前馈神经网络
 缺点是训练时间长。优点是比起MLP的效果更好
 通过更改position_wise_feedforward.py中的gridsize可以改变KAN的大小
