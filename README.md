@@ -6,8 +6,8 @@ data中是数据集
 通过更改position_wise_feedforward.py中的gridsize可以改变KAN的大小
 出于本人的pc机能限制，默认为5，更大的gridsize可能会提高模型的性能，但同时也会增加计算的复杂性和内存需求（100时需70G内存）
 # 参考：
-https://arxiv.org/abs/1706.03762（Attension is all you need）
-https://arxiv.org/html/2404.19756v1(KAN: Kolmogorov–Arnold Networks)
+https://arxiv.org/abs/1706.03762   （Attension is all you need）
+https://arxiv.org/html/2404.19756v1   (KAN: Kolmogorov–Arnold Networks)
 # 运行
 在根目录创建一个save文件夹用来保存训练好的模型
 使用"python3 run.py"训练模型
